@@ -39,7 +39,7 @@
 + (void)dct_setPassword:(NSString *)password
 			forUsername:(NSString *)username
 			serviceName:(NSString *)serviceName {
-	[SFHFKeychainUtils setPassword:password forUsername:username serviceName:serviceName updateExisting:YES];
+	[SFHFKeychainUtils dct_setPassword:password forUsername:username serviceName:serviceName updateExisting:YES];
 }
 
 
