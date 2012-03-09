@@ -1,0 +1,1 @@
+A clean version of original repository to simplify submodule's usage.
